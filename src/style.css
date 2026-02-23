@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Outfit:wght@100..900&display=swap');
+
+@theme {
+  --font-bigshoulders: "Big Shoulders", ui-sans-serif, system-ui;
+  --font-outfit: "Outfit", serif;
+
+  --color-gold: #D5966C;
+  --color-almost-black: #151515;
+  --color-dark-grey: #444444;
+}
+
+/* Utilities */
+@utility title-hero {
+  @apply font-bigshoulders text-7xl uppercase;
+  font-weight: 700; 
+  line-height: 0.9;
+}
+
+@utility title-hero-xl {
+  @apply font-bigshoulders text-8xl uppercase;
+  font-weight: 900; 
+  line-height: 0.85;
+  letter-spacing: -0.02em;
+}
+
+@utility text-body {
+  font-family: var(--font-outfit);
+  font-size: var(--text-2xl);
+  color: var(--color-dark-grey);
+  font-weight: 200; 
+  line-height: 1.6;
+}
+
+@utility stack-sm {
+  margin-block: 0.75rem;
+}
+
+@utility stack-md {
+  margin-block: 2rem;  
+}
+
+@utility stack-lg {
+  margin-block: 3rem;    
+}
+
+@utility btn-hero {
+  display: flex;
+  color: white;
+  font-size: var(--text-xl);
+  letter-spacing: var(--tracking-widest);
+  font-family: var(--font-bigshoulders);
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+  & .btn-content {
+    background-color: var(--color-almost-black);
+    padding: 1.5rem;
+    display: flex;
+    transition: background-color 0.3s;
+  }
+
+  & .btn-arrow {
+    background-color: var(--color-gold);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+
+    & img {
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+
+  &:hover {
+    & .btn-content {
+      background-color: var(--color-gold);
+    }
+    & .btn-arrow {
+      background-color: var(--color-almost-black);
+    }
+    & .btn-arrow img {
+      transform: scaleY(0.5);
+    }
+  }
+}
+
+@utility icon-social {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: white; 
+  transition: background-color 0.3s;
+
+  
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  &:hover {
+    transform: scale(1.25);
+  }
+}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Art Gallery | Home</title>
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body>
+    <div class="top-hero mb-30 md:grid grid-cols-2 relative w-screen min-h-[500px] lg:h-[800px]">
+
+      <div class="lg-black-div absolute top-0 left-0 h-full w-1/4 bg-almost-black hidden lg:block z-10"></div>
+
+      <div class="w-full h-full lg:w-2/3 lg:ml-auto">
+        <img src="./images/index/grandma.jpg" alt="grandma-picture" class="md:hidden w-full h-full object-cover">
+        <img src="./images/index/grandma_rectangle.jpg" alt="grandma-picture-rectangle" class="hidden md:block w-full h-full object-cover">
+      </div>
+
+      <div class="top-hero-right mx-5 z-20 
+                  md:top-30 md:left-[40%] md:right-5 md:absolute md:col-span-1
+                  lg:top-1/4 lg:left-0 lg:w-full lg:grid lg:grid-cols-12 lg:px-20"><h1 class="title-hero stack-md lg:title-hero-xl lg:text-white lg:col-span-6 lg:items-start">MODERN <br> ART GALLERY</h1>
+        <div class="subtitle-top-hero lg:col-span-4 lg:col-start-8 mt-10 lg:mt-0">
+          <p class="text-body stack-md">The arts in the collection of the Modern Art Gallery all 
+            started from a spark of inspiration. Will these pieces 
+            inspire you? Visit us and find out.
+          </p>
+          <a href="location.html" class="btn-hero">
+            <div class="btn-content">
+              OUR LOCATION
+            </div>
+            <div class="btn-arrow">
+              <img src="./images/arrow-right.svg" alt="arrow-right">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-hero mx-5 md:mx-10 lg:mx-30
+                md:grid md:grid-cols-2 md:grid-rows-3 md:gap-3">
+      <article class="bottom-hero-first md:col-span-2 md:flex md:items-center md:gap-8">
+        <img src="./images/index/gallery1.jpg" alt="photo-gallery-1" class="md:hidden">
+        <div class="subtitle-bottom-hero-first md:w-[40%]">
+          <h1 class="title-hero stack-md">YOUR DAY <br> AT THE GALLERY</h1>
+          <p class="text-body stack-md">Wander through our distinct collections and find new insights 
+            about our artists. Dive into the details of their creative 
+            process.
+          </p>
+        </div>
+        <div class="md:w-[60%] h-full mt-8 md:mt-0">
+          <img src="./images/index/gallery1.jpg" alt="photo-gallery-1" class="hidden md:block w-fit h-full object-cover">
+        </div>
+      </article> 
+      <div class="md:row-span-2 mt-8 md:mt-0">
+        <img src="./images/index/gallery2.jpg" alt="photo-gallery-2" class="w-full h-full object-cover">
+      </div>
+      <div class="mt-8 md:mt-0">
+        <img src="./images/index/gallery3.jpg" alt="photo-gallery-3" class="w-full h-full object-cover">
+      </div>
+
+      <div class="subtitle-bottom-hero-second bg-almost-black text-white p-8 md:p-12 flex flex-col justify-center mt-8 md:mt-0">
+        <h1 class="title-hero stack-sm">COME & BE INSPIRED</h1>
+        <p class="text-body text-white">We’re excited to welcome you to 
+            our gallery and see how our collections influence you.
+        </p>
+      </div>  
+    </div>
+
+    <footer class="bg-almost-black text-white py-10 px-7 mt-30 md:grid grid-cols-3 lg:px-30 items-center">
+      <div class="primary-footer md:col-span-1">
+        <h2 class="font-bigshoulders text-3xl font-extrabold">MODERN <br> ART GALLERY</h2>
+      </div>
+      <div class="secondary-footer md:col-span-1 items-start">
+        <p class="font-outfit text-xl font-extralight my-10">The Modern Art Gallery is free to all visitors and open seven days a week
+          from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+      </div>
+      <div class="logos flex gap-10 md:col-end-4 md:justify-end">
+        <a href="#" 
+          class="icon-social" 
+          style="mask-image: url('./images/logo-facebook.svg'); -webkit-mask-image: url('./images/logo-facebook.svg');">
+        </a>
+        <a href="#" 
+          class="icon-social" 
+          style="mask-image: url('./images/logo-instagram.svg'); -webkit-mask-image: url('./images/logo-instagram.svg');">
+        </a>
+        <a href="#" 
+          class="icon-social" 
+          style="mask-image: url('./images/logo-twitter.svg'); -webkit-mask-image: url('./images/logo-twitter.svg');">
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
