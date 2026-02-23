@@ -1,8 +1,15 @@
-/_ GUÍA DE INSTALACIÓN PASO POR PASO _/
-Cuando quieras empezar un proyecto nuevo de Vite + Tailwind CSS:
+**Modern Art Gallery**
+Este proyecto es una Galería de Arte Moderna interactiva construida con tecnologías web actuales.
 
-1. Copia y pega la carpeta template-vite-tailwind y cámbiale el nombre a tu nuevo proyecto (ej: landing-page-2).
-2. Abre esa nueva carpeta en VS Code.
-3. Abre la terminal y escribe solo este comando: npm install
-   (Este comando leerá tu archivo package.json y reinstalará todo lo necesario automáticamente).
-4. Escribe npm run dev y... ¡a programar!
+🚀 **Demo en vivo**
+Puedes ver el resultado final aquí:
+[**Visita mi sitio web**](https://falcojau.github.io/modern-art-gallery/)
+
+🛠️ **Tecnologías utilizadas**
+Vite: Entorno de desarrollo rápido.
+
+**Tailwind CSS v4:** Para un diseño moderno y responsive.
+
+**GitHub Actions:** Despliegue automático (CI/CD).
+
+<img width="2620" height="1426" alt="image" src="https://github.com/user-attachments/assets/dffca83b-fc22-438a-afb8-dd76797845fe" />
