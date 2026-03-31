@@ -7,6 +7,7 @@ rollupOptions: {
 input: {
 main: './index.html',
 location: './location.html',
+artists: './artists.html',
 },
 },
 },
